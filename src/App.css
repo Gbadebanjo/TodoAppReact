@@ -20,11 +20,21 @@ body {
   justify-content: start;
   width: 520px;
   min-height: 600px;
-  background: #161a2b;
   text-align: center;
+  background: #161a2b;
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+}
+
+
+
+ .todo-app.light-mode {
+  background: #fff;
+}
+  
+ .todo-app.dark-mode {
+  background: #161a2b;
 }
 
 h1 {
