@@ -30,7 +30,7 @@ body {
 
 
  .todo-app.light-mode {
-  background: #fff;
+  background: #7e7373;
 }
   
  .todo-app.dark-mode {
@@ -41,6 +41,14 @@ h1 {
   margin: 32px 0;
   color: #fff;
   font-size: 24px;
+}
+
+.h1.light-mode {
+  background: black;
+}
+  
+ .h1.dark-mode {
+  background: #fff;
 }
 
 .complete {

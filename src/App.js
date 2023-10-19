@@ -4,6 +4,7 @@ import TodoList from './components/TodoList';
 import { createContext } from 'react'
 import ReactSwitch from 'react-switch';
 
+
 export const ThemeContext = createContext(null);
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -19,7 +20,7 @@ function App() {
         <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
         <TodoList />
       </div>
-      </ThemeContext.Provider>
+    </ThemeContext.Provider>
 
   );
 }
